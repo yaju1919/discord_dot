@@ -149,7 +149,7 @@
         result_elm.text(s);
         result_log = s;
     };
-    const result_elm = $("<pre>").appendTo($("body"));
+    const result_elm = $("<pre>").appendTo(h);
     //---------------------------------------------------------------------------------
     function main(){
         const flag = flag_discord();
