@@ -155,7 +155,7 @@
         const flag = flag_discord();
         const s = input_s();
         let str = '';
-        if(flag) str += '.';
+        if(flag) str += '.\n';
         for(const line of mass){
             let str2 = '';
             for(const m of line){
