@@ -80,6 +80,7 @@
     //---------------------------------------------------------------------------------
     const MASS_SIZE = "16px";
     const tbody = $("<tbody>").appendTo($("<table>").appendTo(h).css({
+        "text-align": "center",
         "border-collapse": "collapse",
         "margin-bottom": MASS_SIZE,
         "user-select": "none" // ドラッグ禁止
