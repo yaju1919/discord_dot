@@ -1,7 +1,9 @@
 (function() {
     'use strict';
     const yaju1919 = yaju1919_library;
-    const h = $("<center>").appendTo($("body"));
+    const h = $("<div>").appendTo($("body")).css({
+        "text-align": "center",
+    });
     $("<h1>",{text:"ドット絵AAを作成します。"}).appendTo(h);
     const appendBtn = (title, func, holder=null) => $("<button>",{text: title}).appendTo(holder||h).click(func);
     //---------------------------------------------------------------------------------
